@@ -28,7 +28,7 @@ export default function Example() {
             </p>
             <div className="mt-10">
               <a
-                href="https://saishankar93.github.io/Payment-gateway/"
+                href="/"
                 target="_blank"
                 className="rounded-md bg-white dark:bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-gray-900 dark:text-white shadow-sm hover:bg-gray-100 dark:hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white transition-colors duration-300"
               >
