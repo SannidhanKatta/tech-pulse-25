@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Dark mode specific styles */
+.dark body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Add smooth transitions for all elements */
+* {
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
