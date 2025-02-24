@@ -32,9 +32,10 @@ export default function Example() {
 
           </div>
           <div className="flex lg:hidden">
+            <ThemeToggle />
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="flex items-center justify-center p-2.5 rounded-md backdrop-blur-md shadow-md"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -79,6 +80,9 @@ export default function Example() {
                       {item.name}
                     </a>
                   ))}
+                </div>
+                <div className="py-6">
+                  <ThemeToggle />
                 </div>
               </div>
             </div>
