@@ -92,7 +92,7 @@ function Dialog({ eventid, title, rules, close }) {
                     Close
                   </button>
                   <a
-                    href="/"
+                    href="https://konfhub.com/4bf616ae-44d3-498a-a11b-0567287a0b3d"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors duration-300"
