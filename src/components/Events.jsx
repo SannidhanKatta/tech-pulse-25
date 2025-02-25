@@ -1,9 +1,9 @@
 import React from 'react';
 import Card from './Card';
-import BB from '../images/BugBash.jpg'
-import NFS from '../images/NeedforSpeed.jpg'
-import QW from '../images/QuizWizard.jpg'
-import SINI from '../images/SeeItNameIt.jpg'
+import BB from '../images/BugBash.png'
+import NFS from '../images/NeedforSpeed (2).png'
+import QW from '../images/QuizWizard.png'
+import SINI from '../images/SeeItNameIt.png'
 
 const cardData = [
   {

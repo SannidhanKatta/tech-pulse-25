@@ -91,8 +91,8 @@ function Footer() {
                 <div className="flex gap-7 justify-center pt-4">
                     <p>
                         <a href="tel:9885203521" className="text-gray-800 dark:text-gray-200">
-                            Ramesh babu - Co-ordinator<br />
-                            9885203521
+                            Sai Shankar - Coordinator<br />
+                            +91 6304848105
                         </a>
                     </p>
                     <p>
@@ -103,8 +103,8 @@ function Footer() {
                     </p>
                     <p>
                         <a href="tel:8919685350" className="text-gray-800 dark:text-gray-200">
-                            Satyadeep - Secretary<br />
-                            8919685350
+                            Sannidhan - Coordinator<br />
+                            +91 7396001730
                         </a>
                     </p>
                 </div>

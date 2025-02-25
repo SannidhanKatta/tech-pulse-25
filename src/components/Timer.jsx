@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Timer = () => {
   // Set your target date and time here (YYYY-MM-DDTHH:MM:SS format)
-  const targetDateTime = new Date('2025-02-28T10:00:00');
+  const targetDateTime = new Date('2025-03-05T10:00:00');
 
   const calculateTimeRemaining = () => {
     const currentTime = new Date();

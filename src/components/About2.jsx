@@ -21,7 +21,7 @@ const About2 = () => {
           </svg>
           <div className="mx-auto">
             <div className="mx-auto text-center">
-              <Date day="28" month="FEB" subtxt="th" />
+              <Date day="05" month="March" subtxt="th" />
             </div>
             <div className="mx-auto text-center">
               <h1 className="text-white venue dark:text-gray-100">📍JBIET, Main block</h1>
