@@ -73,9 +73,9 @@ function Dialog({ eventid, title, rules, close }) {
   };
 
   return (
-    <div id="modal-container" onClick={handleModalContainerClick} data-id="" className="flex fixed inset-0 z-50 justify-center items-center bg-black/50 dark:bg-black/80">
+    <div id="modal-container" onClick={handleModalContainerClick} data-id="" className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 dark:bg-black/80">
       <div className="absolute w-full h-full bg-transparent modal-background dark:bg-gray-900/50"></div>
-      <div ref={modalRef} className="relative p-8 mx-auto mt-20 max-w-5xl bg-white rounded-lg shadow-xl transition-all duration-300 dark:bg-gray-800">
+      <div ref={modalRef} className="relative max-w-5xl p-8 mx-auto mt-20 transition-all duration-300 bg-white rounded-lg shadow-xl dark:bg-gray-800">
         {cardData.map((card) => {
           if (card.eventid === eventid) {
             return (
@@ -86,13 +86,13 @@ function Dialog({ eventid, title, rules, close }) {
                 </div>
                 <div className="flex justify-between p-6 mt-4 border-t border-gray-200 dark:border-gray-700">
                   <button
-                    className="px-4 py-2 font-semibold text-gray-800 bg-white rounded border border-gray-400 shadow transition-colors duration-300 dark:text-white dark:bg-gray-700 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-600"
+                    className="px-4 py-2 font-semibold text-gray-800 transition-colors duration-300 bg-white border border-gray-400 rounded shadow dark:text-white dark:bg-gray-700 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-600"
                     onClick={close}
                   >
                     Close
                   </button>
                   <a
-                    href="https://konfhub.com/4bf616ae-44d3-498a-a11b-0567287a0b3d"
+                    href="https://konfhub.com/t-25"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors duration-300"

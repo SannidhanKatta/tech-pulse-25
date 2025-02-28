@@ -16,11 +16,11 @@ export default function Example() {
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
-        <nav className="flex justify-between items-center p-6 lg:px-8" aria-label="Global">
+        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <span className="sr-only">Your Company</span>
             <img
-              className="mt-2 w-auto h-10 lg:h-20 lg:mt-0"
+              className="w-auto h-10 mt-2 lg:h-20 lg:mt-0"
               src="https://images-codehub.vercel.app/Images/Codehub.png"
               alt=""
             />
@@ -42,7 +42,7 @@ export default function Example() {
               <Bars3Icon className="w-6 h-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden items-center lg:flex lg:gap-x-12">
+          <div className="items-center hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
                 {item.name}
@@ -53,8 +53,8 @@ export default function Example() {
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
-          <Dialog.Panel className="overflow-y-auto fixed inset-y-0 right-0 z-50 px-6 py-6 w-full bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div className="flex justify-between items-center">
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
               </a>
@@ -90,9 +90,9 @@ export default function Example() {
         </Dialog>
       </header>
 
-      <div className="isolate relative px-6 pt-14 bg-white transition-colors duration-300 lg:px-8 dark:bg-gray-900">
+      <div className="relative px-6 transition-colors duration-300 bg-white isolate pt-14 lg:px-8 dark:bg-gray-900">
         <div
-          className="overflow-hidden absolute inset-x-0 -top-40 blur-3xl transform-gpu -z-10 sm:-top-80"
+          className="absolute inset-x-0 overflow-hidden -top-40 blur-3xl transform-gpu -z-10 sm:-top-80"
           aria-hidden="true"
         >
           <div
@@ -103,7 +103,7 @@ export default function Example() {
             }}
           />
         </div>
-        <div className="py-40 mx-auto max-w-2xl sm:py-48 lg:py-30">
+        <div className="max-w-2xl py-40 mx-auto sm:py-48 lg:py-30">
           <div className="text-center">
             <h1 className="text-4xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 sm:text-6xl animate-text">
               TECHPULSE' 25
@@ -113,7 +113,7 @@ export default function Example() {
             </p>
             <div className="mt-10">
               <a
-                href="https://konfhub.com/4bf616ae-44d3-498a-a11b-0567287a0b3d"
+                href="https://konfhub.com/t-25"
                 target="_blank"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors duration-300"
               >
